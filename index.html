@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Untuk Kamu</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="floating-hearts"></div>
+
+  <section class="hero">
+    <p class="mini">website kecil buat orang paling spesial</p>
+    <h1>Hai, Sayang 🤍</h1>
+    <p class="subtitle">Scroll pelan-pelan ya, ada beberapa hal kecil yang aku siapin buat kamu.</p>
+    <button onclick="scrollToSection('surat')">Mulai Buka</button>
+  </section>
+
+  <section class="story">
+    <h2>Kamu Spesial Karena</h2>
+    <div class="cards">
+      <div class="card">Kamu spesial karena tetap terus maju</div>
+      <div class="card">Senyum kamu yang wek bikin aku pengen jail</div>
+      <div class="card">Dan cemberut mu itu tetap ingin aku bikin ngambek</div>
+    </div>
+  </section>
+
+  <section id="surat" class="letter-section">
+    <h2>Surat Kecil</h2>
+    <div class="envelope" onclick="openLetter()">
+      <div class="flap"></div>
+      <div class="paper" id="paper">
+        <h3>Untuk kamu,</h3>
+        <p>
+          Aku cuma mau bilang, terima kasih sudah hadir di hidupku.
+          Mungkin aku nggak selalu sempurna, tapi rasa sayangku ke kamu tulus
+          Semoga halaman kecil ini bisa bikin kamu senyum sebentar
+        </p>
+        <p class="sign">Dari aku 🤍</p>
+      </div>
+      <p class="tap">Klik amplopnya</p>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <h2>Foto Kita</h2>
+    <p class="hint">Swipe / geser fotonya</p>
+    <div class="slider">
+      <button class="nav left" onclick="prevSlide()">‹</button>
+      <div class="photo-frame">
+        <img id="slide" src="assets/foto1.jpg" alt="Foto kita" />
+      </div>
+      <button class="nav right" onclick="nextSlide()">›</button>
+    </div>
+    <p class="photo-note">Kita asik pas lagi bareng bareng <b>assets</b> liat senyumnya wek bgt</p>
+  </section>
+
+  <section class="promise">
+    <h2>Satu Pesan Terakhir</h2>
+    <p>
+      Kalau suatu hari kamu capek, semoga kamu ingat bahwa ada aku yang selalu ingin jadi tempat pulang paling tenang buat kamu.
+    </p>
+    <button onclick="showLove()">Klik ini</button>
+    <h3 id="loveText"></h3>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
