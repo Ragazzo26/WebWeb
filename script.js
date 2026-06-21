@@ -1,7 +1,11 @@
 const photos = [
   'assets/foto1.jpg',
   'assets/foto2.jpg',
-  'assets/foto3.jpg'
+  'assets/foto3.jpg',
+  'assets/foto4.jpg',
+  'assets/foto5.jpg',
+  'assets/foto6.jpg',
+  'assets/foto7.jpg'
 ];
 
 let currentSlide = 0;
