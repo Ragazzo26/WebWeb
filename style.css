@@ -43,6 +43,20 @@ section {
   margin-bottom: 28px;
 }
 
+.hero-link {
+  display: block;
+  width: fit-content;
+  margin: 15px auto;
+  padding: 12px 22px;
+  background-color: white;
+  color: #ff5f8f;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  position: relative;
+  z-index: 10;
+}
+
 button {
   border: none;
   padding: 14px 24px;
