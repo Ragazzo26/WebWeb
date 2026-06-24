@@ -230,7 +230,7 @@ h2 {
 .hero-link {
   display: block;
   width: fit-content;
-  margin: 15px auto;
+  margin: 5px auto 25px;
   padding: 12px 22px;
   background-color: white;
   color: #ff5f8f;
